@@ -27,7 +27,7 @@ Verify endpoint:
 ```
 curl localhost:8888/quarkus-client/default
 ```
-_{"name":"quarkus-client","profiles":["default"],"label":null,"version":"a0d265595bfe822efcad0c4c68593b47e882ae45","state":null,"propertySources":[{"name":"file://Users/jclingan/working/quarkus/springconfig/localrepo//quarkus-client.properties","source":{"message":"world"}}]}_
+_{"name":"quarkus-client","profiles":["default"],"label":null,"version":"e12042adead2db55ff3502a12bf45d2c245b522f","state":null,"propertySources":[{"name":"/Users/jclingan/configrepo//quarkus-client.properties","source":{"message":"world"}}]}_
 
 ## Build and run quarkus-client
 ```
