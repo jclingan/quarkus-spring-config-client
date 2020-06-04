@@ -29,11 +29,21 @@ curl localhost:8888/quarkus-client/default
 ```
 _{"name":"quarkus-client","profiles":["default"],"label":null,"version":"e12042adead2db55ff3502a12bf45d2c245b522f","state":null,"propertySources":[{"name":"/Users/jclingan/configrepo//quarkus-client.properties","source":{"message":"world"}}]}_
 
-## Build and run quarkus-client
+## Build and run Quarkus Client
+
+### JVM
+
 ```
 cd quarkus-client
 mvn clean package
 java -jar target/quarkus-client-1.0-SNAPSHOT-runner.jar
+```
+
+### Native binary (requires GraalVM)
+```
+cd quarkus-client
+mvn clean package -Pnative
+target/quarkus-client-1.0-SNAPSHOT-runner
 ```
 
 Verify endpoint:
