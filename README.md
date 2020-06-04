@@ -1,6 +1,7 @@
-# Quarkus Spring Boot Client
+# Quarkus Spring Config Client
 
-This project uses Spring Config Server as a Quarkus configuration property source. This example will require 2 terminals.
+This project uses Spring Config Server as a Quarkus configuration property source. This example will require 3 terminals,
+one to run config server, one to run config client, and one to run curl (or us browser instead)
 
 ## Create a local git repo
 Update spring.cloud.config.server.git.uri property in config-server/src/main/resources/application.properties if a different location is used.
